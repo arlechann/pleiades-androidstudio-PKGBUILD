@@ -1,3 +1,3 @@
 # 説明
 
-Pleiades(https://pleiades.io)をAndroid StudioにインストールするためのPKGBUILDです。
+[Pleiades](https://pleiades.io)をAndroid StudioにインストールするためのPKGBUILDです。
