@@ -1,0 +1,5 @@
+post_remove(){
+ _vmopt=$(echo $HOME/.AndroidStudio*.*/config/studio64.vmoption)
+  sed -iE '/^-Xverify:none/d' $_vmopt
+  sed -iE '/^-javaagent:.+pleiades\.jar$/d' $_vmopt
+}
